@@ -16,14 +16,14 @@ This project is a standalone Python application that collects, validates, and ex
    cd proxy-collector-validator
 Install the requirements:
 
-bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 Usage
 Start the application: Run this command.
 
-bash
-python main.py
+   ```bash
+   python main.py
 
 Features:
 
