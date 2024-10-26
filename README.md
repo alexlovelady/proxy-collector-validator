@@ -14,24 +14,28 @@ This project is a standalone Python application that collects, validates, and ex
    ```bash
    git clone https://github.com/alexlovelady/proxy-collector-validator.git
    cd proxy-collector-validator
+   ```
+
 Install the requirements:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt```
+   ```
 
-Usage
+## Usage
 Start the application: Run this command.
 
    ```bash
    python main.py
+   ```
 
-Features:
+## Features:
 
 Collect Proxies: Fetch proxies from predefined online sources and save them to proxies.json..
 Validate All Proxies: Validate all proxies in the proxies.json file.
 Export to CSV: Export all valid proxies to a CSV file named valid_proxies.csv.
 
-File Structure
+**File Structure**
 app.py - Flask server for collecting and validating proxies.
 gui.py - GUI application built with Tkinter.
 main.py - Main entry point for the application.
@@ -42,12 +46,12 @@ valid_proxies.json - JSON file where valid proxies are saved.
 valid_proxies.csv - CSV file containing the exported valid proxies.
 Requirements.txt - List of Python packages required for the project.
 
-Requirements
+**Requirements**
 Python 3.x
 Flask
 Tkinter
 Requests
 BeautifulSoup4
 
-License
+## License
 This project is licensed under the MIT License.
